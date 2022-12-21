@@ -1,0 +1,40 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'SportsGDemo' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  pod 'lottie-ios'
+  pod 'MBCircularProgressBar'
+pod 'MBProgressHUD'
+  #pod 'IQKeyboardManagerSwift'
+  #pod 'Spring'
+  
+  #pod 'Alamofire'
+  pod 'SDWebImage', '~> 5.0' 
+
+  pod 'ProgressHUD'
+  pod 'Alamofire', '~> 4.9.1'
+  pod 'SDWebImage', '~> 5.0'
+ # pod 'MarqueeLabel'
+  #pod 'SkeletonView'
+  #pod 'RxSwift', '~> 5'
+  #pod 'RxCocoa', '~> 5'
+pod 'SwiftyJSON'
+pod 'Reachability'
+  
+
+
+  # Pods for SportsGDemo
+
+  target 'SportsGDemoTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'SportsGDemoUITests' do
+    # Pods for testing
+  end
+
+end
